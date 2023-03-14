@@ -1,0 +1,242 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FAD961;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url(Poppins-ExtraBold.ttf);
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(Roboto-Regular.ttf);
+}
+
+@media only screen and (min-width: 1000px){
+    .cla{ height: 550px;}
+}
+
+
+@media only screen and (max-width: 800px){
+   .beoplay{
+    margin-top: 20px !important;
+   }
+   .bspeaker{
+    margin-top: 0px !important;
+   }
+   .speakerb{
+    font-size: 33px !important;
+    letter-spacing: normal !important;
+   }
+   .firstpart{
+    font-size: 16px !important;
+    line-height: 40px !important;
+   }
+   .secondpart{
+    font-size: 16px !important;
+   }
+   .midbut{
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+   }
+   .mid-button{
+    margin-top: 0px !important;
+   }
+   .bg-text1{
+    margin-top: 0px !important;
+   }
+   .bg-text2{
+    margin-top: 0px !important;
+   }
+   .icon{
+    margin-top: 0px !important;
+   }
+   .text{
+    margin-top: 0px !important;
+   }
+   .mid{
+    margin-top: 0px !important;
+   }
+   .denmark{
+    font-size: 12px !important;   
+    margin-top: 30px !important;
+   }
+   .screens{
+    font-size: 12px !important;
+    font-style: oblique !important;
+   }
+   .svg1{
+    margin-top: 35px !important;
+   }
+   .svg2{
+    margin-top: 35px !important;
+   }
+   .first{
+    color: #ffffff !important;
+   }
+   .erti{
+    color: #ffffff !important;
+    font-size: 12px !important;
+   }
+   .ori{
+    font-size: 12px !important;
+   }
+   .foot-sm{
+    display: inline-block !important;
+   }
+   .foot{
+    display: none !important;
+   }
+   .backim{
+    width: 350px !important;
+   }
+}
+    
+
+
+
+.brand-name{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 27.451px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.buttt{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #1B1B1B;
+}
+
+.Bplay{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #000000;
+}
+.speakerb{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    letter-spacing: -4px;
+    color: #1B1B1B;
+}
+.midbut{
+    padding-left: 37px;
+    padding-right: 37px;
+    border: 2px solid #1B1B1B;
+    border-radius: 100px;
+    background-color: transparent;
+}
+.firstpart{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 56px;
+    /* identical to box height, or 146% */
+
+
+    color: #1B1B1B;
+}
+.secondpart{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+    color: #1B1B1B;
+}
+
+
+.denmark{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 2px;
+
+    color: #1B1B1B;
+}
+.screens{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+    color: #1B1B1B;
+
+}
+.first{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+.erti{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 2px;
+
+    color: #000000;
+
+}
+.ori{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+
+    text-align: center;
+    letter-spacing: 2px;
+
+    color: #FFFFFF;
+}
+
+.navbar{
+    flex-wrap: nowrap;
+}
+
+.dropstart > .dropdown-menu{
+    top: 200% !important;
+    right: -50% !important;
+}
+.dropdown-item:hover{
+    background-color: black;
+    color: #FFFFFF;
+}
+
+.two{
+    z-index: 2;
+}
